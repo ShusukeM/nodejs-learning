@@ -1,0 +1,24 @@
+{
+    "name": "Node.js Dev Container",
+
+    "dockerComposeFile": "../compose.yaml",
+
+    "service": "app",
+
+    "workspaceFolder": "/app",
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode",
+                "ritwickdey.LiveServer",
+                "formulahendry.auto-rename-tag",
+                "formulahendry.auto-close-tag",
+                "ecmel.vscode-html-css",
+                "oderwat.indent-rainbow",
+                "eamodio.gitlens"
+            ]
+        }
+    }
+}
